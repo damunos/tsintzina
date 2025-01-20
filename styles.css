@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    background-color: #001f3f;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #003366;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #cce7ff;
+}
+
+section {
+    padding: 20px;
+}
+
+section h1, section h2 {
+    color: #fff;
+}
+
+section p {
+    color: #cce7ff;
+}
+
+form {
+    background-color: #001f3f;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056A3;
+}
+
+.button {
+    display: inline-block;
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056A3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #001f3f;
+    color: #fff;
+}
