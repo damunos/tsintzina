@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Tsintzina Society</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="membership.html">Membership</a>
-            <a href="contact.html">Contact</a>
-            <a href="rsvp.html">RSVP</a>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/general-history.html">General History</a></li>
+                <li><a href="/family-history.html">Family History</a></li>
+                <li><a href="/membership.html">Membership</a></li>
+                <li><a href="/annual-convention.html">Annual Convention</a></li>
+                <li><a href="https://tsintzinianchronicle.substack.com/" target="_blank">News</a></li>
+                <li><a href="/donate.html">Donate</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
-    
-        <section class="contact">
-            <h1>Contact Us</h1>
-            <p>If you have any questions or want to learn more, reach out to us.</p>
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" required></textarea><br>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-        
+    <main>
+        <h1>Contact Us</h1>
+        <p>Have questions or want to learn more? Reach out to us!</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </main>
     <footer>
-        <p>&copy; 2025 Tsintzina Society. All rights reserved.</p>
+        <p>&copy; 2025 Tsintzina Society</p>
     </footer>
 </body>
 </html>
